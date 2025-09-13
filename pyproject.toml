@@ -1,0 +1,19 @@
+[project]
+name = "agentic-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.5",
+    "black>=25.1.0",
+    "dotenv>=0.9.9",
+    "isort>=6.0.1",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.29",
+    "langchain-openai>=0.3.33",
+    "langchain-tavily>=0.2.11",
+    "langgraph>=0.6.7",
+    "pytest>=8.4.2",
+]
