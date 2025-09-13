@@ -5,8 +5,10 @@ from graph.chains.answer_grader import answer_grader
 from graph.chains.hallucination_grader import hallucination_grader
 from graph.chains.router import RouteQuery, question_router
 from graph.consts import GENERATE, GRADE_DOCUMENTS, RETRIEVE, WEBSEARCH
-from graph.nodes import generate, grade_documents, web_search
+from graph.nodes.generate import generate
 from graph.nodes.retrieve import retrieve
+from graph.nodes.grade_documents import grade_documents
+from graph.nodes.web_search import web_search
 from graph.state import GraphState
 
 load_dotenv()
